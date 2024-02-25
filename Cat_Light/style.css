@@ -1,3 +1,12 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .dark-background {
     background-color: #0b0b0b;
 }
