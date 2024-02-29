@@ -8,23 +8,18 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <title>Traffic_Lights</title>
+    <title>Seasons_Siitcher</title>
 </head>
 
 <body>
-    <div class="bg1">
-        <h1 class="text-center">Traffic Light</h1>
-        <div class="d-flex flex-row justify-content-center">
-            <div class="d-flex flex-column">
-                <button id="stopButton" onclick="red()" class="button">Stop</button>
-                <button id="readyButton" onclick="yellow()" class="button">Ready</button>
-                <button id="goButton" onclick="green()" class="button">Go</button>
-            </div>
-            <div class="lights d-flex flex-column">
-                <div class="red lights1" id="stopLight"></div>
-                <div class="yellow lights1" id="readyLight"></div>
-                <div class="green lights1" id="goLight"></div>
-            </div>
+    <div>
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-four-seasons-xs-img.png" class="season-image d-inline d-md-none" id="seasonSmallImage" />
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-four-seasons-md-img.png" class="season-image d-none d-md-inline" id="seasonMediumImage" />
+        <div class="d-flex flex-row justify-content-center mt-4">
+            <button class="button spring-button" onclick="spring()" id="springBtn">Spring</button>
+            <button class="button summer-button" onclick="summer()" id="summerBtn">Summer</button>
+            <button class="button autumn-button" onclick="autumn()" id="autumnBtn">Autumn</button>
+            <button class="button winter-button" onclick="winter()" id="winterBtn">Winter</button>
         </div>
     </div>
 </body>
