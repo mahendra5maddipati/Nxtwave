@@ -42,3 +42,32 @@ document.addEventListener("DOMContentLoaded", function() {
     visitB.addEventListener("click", visit);
     attractionsB.addEventListener("click", attractions);
 });
+
+
+// const tabs = {
+//     about: { button: document.getElementById("aboutButton"), tab: document.getElementById("aboutTab") },
+//     visit: { button: document.getElementById("timeToVisitButton"), tab: document.getElementById("timeToVisitTab") },
+//     attractions: { button: document.getElementById("attractionsButton"), tab: document.getElementById("attractionsTab") }
+// };
+
+// function showTab(tabName) {
+//     for (const key in tabs) {
+//         const tab = tabs[key];
+//         const isSelected = key === tabName;
+
+//         tab.tab.classList.toggle("d-none", !isSelected);
+//         tab.button.classList.toggle("selected-button", isSelected);
+//     }
+// }
+
+// function about() {
+//     showTab("about");
+// }
+
+// function visit() {
+//     showTab("visit");
+// }
+
+// function attractions() {
+//     showTab("attractions");
+// }
