@@ -1,7 +1,7 @@
 let profileDetails = {
     imgSrc: "https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/user-profile-img.png",
-    name: "RAHUL ATTULURI",
-    age: 25
+    name: "Mahendra Maddipati",
+    role: "Software Engineer"
 };
 
 let img1 = document.getElementById("imgContainer");
@@ -18,5 +18,5 @@ heading.textContent = profileDetails.name;
 container.appendChild(heading);
 
 let para = document.createElement("p");
-para.textContent = "Age:" + profileDetails.age;
+para.textContent = "Role:" + profileDetails.role;
 container.appendChild(para);
