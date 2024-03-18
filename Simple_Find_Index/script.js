@@ -16,4 +16,5 @@ document.addEventListener("DOMContentLoaded", function(){
         });
         index.textContent = item;
     }
+    button.addEventListener("click", findIndexOfNumber);
 });
