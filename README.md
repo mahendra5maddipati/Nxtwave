@@ -1,3 +1,3 @@
 # Nxtwave
 
-<!-- simple pewcw maker folder need modification -->
+<!-- simple peace maker folder need modification -->
