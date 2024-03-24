@@ -36,6 +36,7 @@ oneMinute.onclick = function() {
     counter = 60;
     startTimer();
 };
+});
 
 // twenty.onclick = function(){
 //   let counter = 20;
