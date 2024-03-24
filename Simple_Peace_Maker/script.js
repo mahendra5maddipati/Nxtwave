@@ -37,3 +37,54 @@ oneMinute.onclick = function() {
     startTimer();
 };
 
+// twenty.onclick = function(){
+//   let counter = 20;
+//   text.textContent = counter + " seconds left";
+//   let id = setInterval(function() {
+//      text.textContent = counter + " seconds left";
+//      counter = counter-1;
+//      if (counter === -1){
+//         text.textContent = "Your moment is compelet";
+//         clearInterval(id);
+//      }
+//   }, 1000);
+// };
+
+// thirty.onclick = function(){
+//   let counter = 30;
+//   text.textContent = counter + " seconds left";
+//   let id = setInterval(function() {
+//      text.textContent = counter + " seconds left";
+//      counter = counter-1;
+//      if (counter === -1){
+//         text.textContent = "Your moment is compelet";
+//         clearInterval(id);
+//      }
+//   }, 1000);
+// };
+
+// forty.onclick = function(){
+//   let counter = 40;
+//   text.textContent = counter + " seconds left";
+//   let id = setInterval(function() {
+//      text.textContent = counter + " seconds left";
+//      counter = counter-1;
+//      if (counter === -1){
+//         text.textContent = "Your moment is compelet";
+//         clearInterval(id);
+//      }
+//   }, 1000);
+// };
+
+// oneMinute.onclick = function(){
+//   let counter = 60;
+//   text.textContent = counter + " seconds left";
+//   let id = setInterval(function() {
+//      text.textContent = counter + " seconds left";
+//      counter = counter-1;
+//      if (counter === -1){
+//         text.textContent = "Your moment is compelet";
+//         clearInterval(id);
+//      }
+//   }, 1000);
+// };
