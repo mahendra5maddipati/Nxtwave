@@ -16,4 +16,6 @@ document.addEventListener("DOMContentLoaded", function(){
             input.value = '';
         }
     }
+    let userInput = document.getElementById("themeUserInput");
+    userInput.addEventListener("keydown", changeTheme);
 });
