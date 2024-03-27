@@ -11,3 +11,19 @@
     <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
     <title>Time_Converter</title>
 </head>
+
+<body>
+    <div class="bgContainer d-flex flex-column justify-content-center p-5">
+        <h1>Time Converter</h1>
+        <p>Enters hours and minutes value to convert into seconds</p>
+        <label for="hoursInput">Hours*</label>
+        <input type="text" id="hoursInput" class="inputStyle mb-3" />
+        <label for="minutesInput">Minutes*</label>
+        <input type="text" id="minutesInput" class="inputStyle" />
+        <button type="submit" id="convertBtn" class="bgButton" onclick="convert()">Convert to Seconds</button>
+        <p id="errorMsg"></p>
+        <p id="timeInSeconds"></p>
+    </div>
+</body>
+
+</html>
