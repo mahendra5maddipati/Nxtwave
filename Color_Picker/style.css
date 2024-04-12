@@ -1,0 +1,39 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.button {
+    padding: 20px 10px 20px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#button1 {
+    background-color: #e0e0e0;
+}
+
+#button2 {
+    background-color: #6fcf97;
+}
+
+#button3 {
+    background-color: #56ccf2;
+}
+
+#button4 {
+    background-color: #bb6bd9;
+}
+
+.bg1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #222222;
+    color: white;
+}
+
+#selectedColorHexCode {
+    color: #49a6e9;
+}
