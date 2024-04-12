@@ -10,3 +10,23 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <title>Color_Picker</title>
 </head>
+
+<body>
+
+    <div class="d-flex flex-column justify-content-center text-center" id="colorPickerContainer">
+        <h1 class="text-center">Color Picker</h1>
+        <div>
+            <button id="button1" onclick="bgToGrey()" class="button">#e0e0e0</button>
+            <button id="button2" onclick="bgToGreen()" class="button">#6fcf97</button>
+            <button id="button3" onclick="bgToBlue()" class="button">#56ccf2</button>
+            <button id="button4" onclick="bgToViolet()" class="button">#bb6bd9</button>
+        </div>
+        <div class="bg1">
+            <p>Background Color : <span id="selectedColorHexCode">#fffff</span></p>
+        </div>
+        <p>Try clicking on one of the colors above to <br> change the background color of this page!</p>
+    </div>
+
+</body>
+
+</html>
