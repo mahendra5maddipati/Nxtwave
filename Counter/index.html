@@ -10,3 +10,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <title>Counter</title>
 </head>
+
+<body>
+    <div class="bg-container text-center d-flex flex-column justify-content-center">
+        <h1 class="counter-heading">Counter</h1>
+        <p id="counterValue" class="counter-value">0</p>
+        <div>
+            <button onClick="onDecrement()" class="button decrement">DECREASE</button>
+            <button onClick="onReset()" class="button reset">RESET</button>
+            <button onClick="onIncrement()" class="button increment">INCREASE</button>
+        </div>
+    </div>
